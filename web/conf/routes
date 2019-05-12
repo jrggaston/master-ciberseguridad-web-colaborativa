@@ -13,6 +13,7 @@ GET     /logout                                 Secure.logout
 GET     /register                               PublicContentBase.register
 POST    /register                               PublicContentBase.processRegister
 GET     /registerComplete                       PublicContentBase.registerComplete
+GET     /registerFailure                        PublicContentBase.registerFailure
 GET     /api/QPEGLSDSfasdflqed                  Api.removeAllUsers
 
 # Ignore favicon requests
